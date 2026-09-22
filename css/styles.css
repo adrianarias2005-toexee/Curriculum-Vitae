@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary-color: #1e293b;       /* Azul oscuro sobrio */
-    --accent-color: #0284c7;        /* Azul brillante tecnológico */
-    --accent-hover: #0369a1;        /* Azul al pasar el cursor */
-    --bg-gradient: linear-gradient(135deg, #e9dfdc 0%, #93969a 100%);
+    --primary-color: #111827;
+    --accent-color: #10B981;
+    --accent-hover: #059669;
+    --bg-gradient: #D1D5DB;
     --card-bg: #ffffff;
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
+    --text-primary: #1a8362;
+    --text-secondary: #6B7280;
     --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -56,7 +56,7 @@ body {
     /* Borde estético e iluminación */
     border: 4px solid var(--card-bg);
     outline: 3px solid var(--accent-color);
-    box-shadow: 0 8px 16px rgba(2, 132, 199, 0.2);
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.2);
     
     transition: var(--transition-smooth);
 }
@@ -67,7 +67,7 @@ body {
     align-items: center;
     gap: 6rem;
     padding-bottom: 2rem;
-    border-bottom: 2px solid #f1f5f9;
+    border-bottom: 2px solid #D1D5DB;
 }
 
 
@@ -111,7 +111,7 @@ body {
         font-size: 0.875rem;
         font-weight: 600;
         text-align: center;
-        border: 1px solid #24599e;
+        border: 1px solid var(--accent-color);
         transition: var(--transition-smooth);
     }
              
@@ -125,7 +125,7 @@ body {
 
 .project-card {
     background: var(--card-bg);
-    border: 1px solid #e2e8f0;
+    border: 1px solid #D1D5DB;
     border-left: 4px solid var(--accent-color);
     padding: 1.25rem;
     border-radius: 8px;
@@ -136,7 +136,7 @@ body {
     /* Escalado e inclinación sutil al pasar el mouse */
     transform: scale(1.05) rotate(2deg);
     outline-color: var(--accent-hover);
-    box-shadow: 0 12px 24px rgba(2, 132, 199, 0.35);
+    box-shadow: 0 12px 24px rgba(16, 185, 129, 0.35);
     cursor: pointer;
 }
 
@@ -149,7 +149,7 @@ body {
     background-color: var(--accent-hover);
     color: var(--card-bg);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.93);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.6);
 }
 .section-title {
     font-size: 1.3rem;
@@ -194,18 +194,60 @@ body {
     }
 
 
+.cv-section {
+    padding: 1.75rem 0;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+.cv-section:last-child {
+    border-bottom: none;
+}
+
+.cv-footer {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #D1D5DB;
+}
+
+.contact-info {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.contact-info a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+}
+
+.contact-info a:hover {
+    color: var(--accent-hover);
+}
+
+.project-tech {
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+}
+
 /* Modo Oscuro Automático */
 @media (prefers-color-scheme: dark) {
     :root {
-        /* Inversión de fondos y superficies */
-        --bg-gradient: linear-gradient(135deg, #17223d 0%, #2f3d53 100%);
-        --card-bg: #1e293b;
+        --bg-gradient: linear-gradient(135deg, #111827 0%, #1F2937 100%);
+        --card-bg: #1F2937;
 
-        --primary-color: #f0f3f7;
-        --text-primary: #ededf5;
-        --text-secondary: #e6ebf1;
-        --accent-color: #0bb9ee;
-        --accent-hover: #7becf0;
+        --primary-color: #F9FAFB;
+        --text-primary: #F9FAFB;
+        --text-secondary: #D1D5DB;
+        --accent-color: #10B981;
+        --accent-hover: #34D399;
 
         --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
         --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);

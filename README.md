@@ -2,6 +2,10 @@
 
 Currículum Vitae personal desarrollado con HTML y CSS, desplegado como sitio web estático en GitHub Pages.
 
+## Vista previa
+
+![Vista previa del CV](Imagenes/preview.png)
+
 ## Ver en línea
 
 [https://adrianarias2005-toexee.github.io/Curriculum-Vitae/](https://adrianarias2005-toexee.github.io/Curriculum-Vitae/)

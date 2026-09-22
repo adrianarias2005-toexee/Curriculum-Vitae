@@ -4,7 +4,8 @@ Currículum Vitae personal desarrollado con HTML y CSS, desplegado como sitio we
 
 ## Vista previa
 
-![Vista previa del CV](Imagenes/preview.png)
+![CV - Parte superior](Imagenes/cv-1.png)
+![CV - Parte inferior](Imagenes/cv-2.png)
 
 ## Ver en línea
 
@@ -26,4 +27,4 @@ Currículum Vitae personal desarrollado con HTML y CSS, desplegado como sitio we
 
 **Angel Adrian Arias Mendoza**  
 Estudiante de Ingeniería en Computación — Universidad Tecnológica de la Mixteca (UTM)  
-[ariasalberto1971@gmail.com](mailto:ariasalberto1971@gmail.com)
+[ariasalberto1971@gmail.com](mailto:ariasalberto1971@gmail.com
